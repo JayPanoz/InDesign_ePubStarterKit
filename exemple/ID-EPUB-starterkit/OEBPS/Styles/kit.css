@@ -1,0 +1,181 @@
+/* GABARIT */
+
+@page {
+	margin: 24px 0; /* Marges supérieure et inférieure de la page-écran */
+	padding: 0;
+}
+
+body {
+	margin: 0 16px; /* Marges latérales de la page-écran */
+	padding: 0;
+	font-family: "Minion Pro", Marion, Georgia, serif;
+	font-size: 100%; /* = valeur par défaut = 16px */
+	line-height: 1.5;
+	-ms-hyphenate-limit-lines: 3;
+	-moz-hyphenate-limit-lines: 3;
+	-webkit-hyphenate-limit-lines: 3;
+	hyphenate-limit-lines: 3;
+}
+
+/* Désactivation des césures */
+
+h1, h2, h3,
+table, th, td {
+	adobe-hyphenate: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+/* STYLES DE PARAGRAPHE */
+
+	/* Titres */
+
+h1 {
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0 0 3em 0;
+	font-weight: bold;
+	text-indent: 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 1.5em 0;
+	font-weight: bold;
+	text-indent: 0;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 1.5em 0;
+	font-weight: bold;
+	text-indent: 0;
+	text-align: center;
+}
+
+	/* Paragraphes */
+
+p {
+	font-size: 1em;
+	text-indent: 1em;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+	/* Citations */
+
+blockquote {
+	font-size: 1em;
+	line-height: inherit;
+	margin: 1.5em 5%;
+	text-align: right;
+}
+
+.citation {
+	text-indent: 0;
+	font-style: italic;
+}
+
+.source {
+	display: block;
+	text-indent: 0;
+}
+
+	/* Listes */
+
+ul {
+	list-style-type: disc; /* remplacer par "none" pour export jusqu'à CS6 */
+	margin: 1.5em 0;
+	padding-left: 5%;
+}
+
+ol {
+	list-style-type: decimal; /* remplacer par "none" pour export jusqu'à CS6 */
+	margin: 1.5em 0;
+	padding-left: 5%;
+}
+
+li {
+	font-size: 1em;
+	line-height: inherit;
+}
+
+	/* Tableaux */
+
+table {
+	margin: 1.5em auto;
+	max-width: 100%;
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+	/* Medias */
+
+img {
+	width: auto; /* Pour conversion Kindle, max-width n'étant pas supporté par mobi */
+	max-width: 100%;
+	height: auto;
+}
+
+/* STYLES DE CARACTÈRE */
+
+i, em, cite {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+small {
+	font-size: 75%;
+}
+
+.small-caps {
+	font-size: 75%; /* font-variant pas supporté RMSDK et plus obligatoire EPUB 3 */
+}
+
+sup {
+	font-size: 75%;
+	line-height: 1.2;
+	vertical-align: sup;
+	vertical-align: 35%;
+}
+
+sub {
+	font-size: 75%;
+	line-height: 1.2;
+	vertical-align: sub;
+	vertical-align: -10%;
+}
+
+code {
+	font-family: "Courier New", Courier, monospace;
+}
+
+abbr {
+
+}

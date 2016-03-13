@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:3DE66F4E-51F7-41CA-8E28-B46D2BB0B3A5</dc:identifier>
+    <dc:title>Id-ePub Starter Kit</dc:title>
+    <dc:creator xmlns:opf="http://www.idpf.org/2007/opf" opf:file-as="Panoz, Jiminy" opf:role="aut">Jiminy Panoz</dc:creator>
+    <dc:language>fr</dc:language>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="">2014-12-07</dc:date>
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2016-03-13</dc:date>
+    <meta content="Adobe InDesign" name="generator" />
+    <meta content="0.8.7" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="Text/Styles-semantiques.xhtml" id="Styles-semantiques" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/ID-EPUB-starterkit.css" id="ID-EPUB-starterkit.css" media-type="text/css" />
+    <item href="Styles/kit.css" id="kit.css" media-type="text/css" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Styles-semantiques" />
+  </spine>
+</package>
