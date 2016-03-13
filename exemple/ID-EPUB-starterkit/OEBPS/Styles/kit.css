@@ -159,14 +159,14 @@ small {
 }
 
 sup {
-	font-size: 75%;
+	font-size: 100%;
 	line-height: 1.2;
 	vertical-align: sup;
 	vertical-align: 35%;
 }
 
 sub {
-	font-size: 75%;
+	font-size: 100%;
 	line-height: 1.2;
 	vertical-align: sub;
 	vertical-align: -10%;
