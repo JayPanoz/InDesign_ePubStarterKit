@@ -6,13 +6,13 @@ Il a été conçu pour fonctionner avec toutes les versions d’InDesign capable
 
 ## License
 
-Ce kit de démarrage est placé sous licence [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/), ce qui signifie que vous pouvez le partager (dans les mêmes conditions et avec attribution) ou l’adapter sans toutefois en faire un usage commercial. 
+Ce kit de démarrage est placé sous licence [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/), ce qui signifie que vous pouvez le partager (dans les mêmes conditions et avec attribution) ou l’adapter sans toutefois en faire un usage commercial. 
 
 Je vous encourage donc à l’étendre, le perfectionner voire réaliser des maquettes entières à partir de celui-ci.
 
 ## Installation 
 
-1. Téléchargez ce repo comme fichier ZIP (en haut à droite sur cette page).
+1. [Téléchargez le fichier ZIP](https://github.com/JayPanoz/InDesign_ePubStarterKit/archive/v1.0.zip).
 2. Dézippez le fichier téléchargé.
 3. Créez une nouvelle maquette ou ouvrez un document que vous n’avez pas encore mis en pages.
 4. À l’aide du menu contextuel du panneau des styles, chargez tous les styles de texte du document `ID-EPUB-starterkit.indd` (ou `ID-EPUB-starterkit.idml` si vous utilisez une version antérieure à CS6).
